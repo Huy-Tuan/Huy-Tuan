@@ -4,40 +4,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wLtGUksgCDp_x0aINcII-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLtGUksgCDp_x0aINcII-1">
+        <mxCell id="wLtGUksgCDp_x0aINcII-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wLtGUksgCDp_x0aINcII-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="wLtGUksgCDp_x0aINcII-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="350" y="220" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLtGUksgCDp_x0aINcII-4">
+        <mxCell id="wLtGUksgCDp_x0aINcII-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wLtGUksgCDp_x0aINcII-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-4" value="Nhap vao 2 so&amp;nbsp;&lt;div&gt;a,b bat ki&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+        <mxCell id="wLtGUksgCDp_x0aINcII-4" value="Nhập số nguyên n" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
           <mxGeometry x="330" y="420" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLtGUksgCDp_x0aINcII-7">
+        <mxCell id="g3fUfp6GQmZZcGTk1fgQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLtGUksgCDp_x0aINcII-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="760" as="targetPoint" />
+            <mxPoint x="260" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-7" value="a+b=?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="g3fUfp6GQmZZcGTk1fgQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLtGUksgCDp_x0aINcII-7" target="g3fUfp6GQmZZcGTk1fgQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLtGUksgCDp_x0aINcII-7" value="n%2==0 ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="350" y="560" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLtGUksgCDp_x0aINcII-10">
+        <mxCell id="wLtGUksgCDp_x0aINcII-13" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="350" y="750" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g3fUfp6GQmZZcGTk1fgQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="g3fUfp6GQmZZcGTk1fgQ-4" target="wLtGUksgCDp_x0aINcII-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="900" as="targetPoint" />
+            <mxPoint x="160" y="560" as="sourcePoint" />
+            <mxPoint x="360" y="775" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="800" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-10" value="In:&quot; tong a+b&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="g3fUfp6GQmZZcGTk1fgQ-4" value="Yes: in: &quot;n là số chẵn&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wLtGUksgCDp_x0aINcII-13" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="350" y="900" width="100" height="100" as="geometry" />
+        <mxCell id="g3fUfp6GQmZZcGTk1fgQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g3fUfp6GQmZZcGTk1fgQ-7" target="wLtGUksgCDp_x0aINcII-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="650" as="sourcePoint" />
+            <mxPoint x="470" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g3fUfp6GQmZZcGTk1fgQ-7" value="No: in: &quot;n là số lẻ&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
